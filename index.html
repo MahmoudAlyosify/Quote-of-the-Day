@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="quotes.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="display-4">Quote of the Day</h1>
+        <p class="lead">Press the button below to receive a random quote!</p>
+
+        <button class="btn btn-primary btn-lg" onclick="generateQuote();">New Quote</button>
+        <div class="mt-4">
+            <p id="quoteOutput" class="h4"></p>
+            <p id="authorOutput" class="h6"></p>
+        </div>
+        <p class="text-center mt-5">Created by Mahmoud Alyosify</p>
+    </div>
+
+
+    <script src="quotes.js"></script>
+</body>
+</html>
